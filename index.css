@@ -1,0 +1,103 @@
+body {
+    background-image: url('back.jpg');
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent light black */
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between; /* Aligns items to the edges */
+    align-items: center;
+}
+
+nav .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo-container img {
+    height: 40px;
+    padding-right: 20px;
+}
+
+nav .site-info {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .site-info .site-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav .site-info .tagline {
+    font-size: 12px;
+    color: #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly lighter on hover */
+}
+
+.content {
+    margin-top: 60px; /* To offset the fixed nav bar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary {
+    background-color: rgba(0, 0, 0, 0.7); /* Light black shading */
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.summary h2 {
+    margin-top: 0;
+}
+
+.learn-more-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333; /* Darker shade for button */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.learn-more-button:hover {
+    background-color: #555; /* Slightly lighter shade on hover */
+}
